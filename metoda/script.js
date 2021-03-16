@@ -3,13 +3,15 @@ let a = document.getElementById('container');
 let count = 12; //колличество картинок/заданий
 
 count=count+1;
-let linetxt="<br><br><br>";
+let linetxt="<br><br>============================<br>";
 
 for(let i=1; i<count;i++){
 
 	let line = document.createElement('div');
+
 	line.innerHTML=linetxt;
 	a.appendChild(line);
+
 
 	let buf = document.createElement("img");
 	buf.classList.add('item');
