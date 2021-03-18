@@ -1,6 +1,6 @@
 let a = document.getElementById('container');
 
-let count = 12; //колличество картинок/заданий
+let count = 21; //колличество картинок/заданий
 
 count=count+1;
 let linetxt="<br><br>============================<br>";
